@@ -15,7 +15,6 @@ from datetime import timedelta
 from datetime import date
 
 today = datetime.datetime.now()
-# https://api.football-data.org/v2/competitions/2015/matches?season=2019&dateFrom=2019-08-16&dateTo=2019-08-17
 
 
 class Py3status:
