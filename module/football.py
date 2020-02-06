@@ -8,14 +8,13 @@ Then, you just need to choose:
 - the competition: ligue 1 - premier leaqgue - bundesliga - liga
 - the date: todat / tomorrow / aftertomorrow
 """
-import datetime
 import http.client
 import json
 from datetime import timedelta
 from datetime import date
+from datetime import datetime
 
-today = datetime.datetime.now()
-
+today = datetime.now()
 
 class Py3status:
 
